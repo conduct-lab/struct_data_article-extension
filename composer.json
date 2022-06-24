@@ -1,0 +1,9 @@
+{
+    "name": "behavior_lab/struct_data_article-extension",
+    "type": "streams-addon",
+    "autoload": {
+        "psr-4": {
+            "BehaviorLab\\StructDataArticleExtension\\": "src/"
+        }
+    }
+}
