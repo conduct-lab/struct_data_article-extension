@@ -1,13 +1,13 @@
-<?php namespace BehaviorLab\StructDataArticleExtension;
+<?php namespace ConductLab\StructDataArticleExtension;
 
-use BehaviorLab\StructDataArticleExtension\Setting\SettingSeeder;
+use ConductLab\StructDataArticleExtension\Setting\SettingSeeder;
 use Anomaly\Streams\Platform\Database\Seeder\Seeder;
 
 /**
  * Class SectionsModuleSeeder
  *
- * @link   https://behaviorlab.io/
- * @author Behavior CPH, ApS <support@behaviorlab.site>
+ * @link   https://ConductLab.io/
+ * @author Behavior CPH, ApS <support@ConductLab.site>
  * @author Ryan Thompson <ryan@pyrocms.com>
  * @author Claus Hjort Bube <chb@b-cph.com>
  */

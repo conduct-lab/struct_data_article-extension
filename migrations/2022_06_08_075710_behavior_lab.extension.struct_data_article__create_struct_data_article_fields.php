@@ -5,8 +5,8 @@ use Anomaly\Streams\Platform\Database\Migration\Migration;
 /**
  * Class BehaviorLabExtensionStructDataArticleCreateStructDataArticleFields
  *
- * @link   https://behaviorlab.io/
- * @author Behavior ApS <support@behaviorlab.io>
+ * @link   https://ConductLab.io/
+ * @author Behavior ApS <support@ConductLab.io>
  * @author Claus Hjort Bube <chb@b-cph.com>
  */
 class BehaviorLabExtensionStructDataArticleCreateStructDataArticleFields extends Migration
@@ -22,7 +22,7 @@ class BehaviorLabExtensionStructDataArticleCreateStructDataArticleFields extends
             'type' => 'anomaly.field_type.select',
             'config' => [
                 'mode' => 'dropdown',
-                "handler" => \BehaviorLab\StructDataArticleExtension\Data\Support\TypeSelectOptions::class
+                "handler" => \ConductLab\StructDataArticleExtension\Data\Support\TypeSelectOptions::class
             ],
         ],
         'headline' => 'anomaly.field_type.text',
@@ -34,14 +34,14 @@ class BehaviorLabExtensionStructDataArticleCreateStructDataArticleFields extends
             'type' => 'anomaly.field_type.multiple',
             'config' => [
                 'mode' => 'lookup',
-                'related' => \BehaviorLab\AuthorsModule\Author\AuthorModel::class,
+                'related' => \ConductLab\AuthorsModule\Author\AuthorModel::class,
             ],
         ],
         'publisher' => [
             'type' => 'anomaly.field_type.relationship',
             'config' => [
                 'mode' => 'lookup',
-                'related' => \BehaviorLab\AuthorsModule\Publisher\PublisherModel::class,
+                'related' => \ConductLab\AuthorsModule\Publisher\PublisherModel::class,
             ],
         ],
         'date_published' => [

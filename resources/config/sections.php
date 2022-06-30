@@ -3,7 +3,7 @@ return [
     'section' => [
         'tabs' => [
             'general' => [
-                'title' => 'behavior_lab.extension.struct_data_article::tabs.general',
+                'title' => 'conduct_lab.extension.struct_data_article::tabs.general',
                 'fields' => [
                     'section_title',
                     'entry_anchor_text',
@@ -11,7 +11,7 @@ return [
                 ],
             ],
             'sharing' => [
-                'title' => 'behavior_lab.extension.struct_data_article::tabs.sharing',
+                'title' => 'conduct_lab.extension.struct_data_article::tabs.sharing',
                 'fields' => [
                     'entry_facebook_share',
                     'entry_twitter_share',
@@ -22,13 +22,13 @@ return [
                 ],
             ],
             'gallery' => [
-                'title' => 'behavior_lab.extension.struct_data_article::tabs.gallery',
+                'title' => 'conduct_lab.extension.struct_data_article::tabs.gallery',
                 'fields' => [
                     'entry_gallery'
                 ],
             ],
             'animation' => [
-                'title' => 'behavior_lab.extension.struct_data_article::tabs.animation',
+                'title' => 'conduct_lab.extension.struct_data_article::tabs.animation',
                 'fields' => [
                     'entry_animation_entrance_scroll_down_section',
                     'entry_animation_entrance_scroll_down_duration_section',

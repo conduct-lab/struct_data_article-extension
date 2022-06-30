@@ -1,13 +1,13 @@
-<?php namespace BehaviorLab\StructDataArticleExtension;
+<?php namespace ConductLab\StructDataArticleExtension;
 
 use Anomaly\Streams\Platform\Addon\AddonServiceProvider;
-use BehaviorLab\StructDataArticleExtension\Author\AuthorModel;
-use BehaviorLab\StructDataArticleExtension\Data\DataModel;
-use BehaviorLab\StructDataArticleExtension\Publisher\PublisherModel;
-use BehaviorLab\StructDataArticleExtension\Setting\Contract\SettingRepositoryInterface;
-use BehaviorLab\StructDataArticleExtension\Setting\SettingRepository;
+use ConductLab\StructDataArticleExtension\Author\AuthorModel;
+use ConductLab\StructDataArticleExtension\Data\DataModel;
+use ConductLab\StructDataArticleExtension\Publisher\PublisherModel;
+use ConductLab\StructDataArticleExtension\Setting\Contract\SettingRepositoryInterface;
+use ConductLab\StructDataArticleExtension\Setting\SettingRepository;
 use Anomaly\Streams\Platform\Model\StructDataArticle\StructDataArticleSettingsEntryModel;
-use BehaviorLab\StructDataArticleExtension\Setting\SettingModel;
+use ConductLab\StructDataArticleExtension\Setting\SettingModel;
 use Illuminate\Routing\Router;
 
 class StructDataArticleExtensionServiceProvider extends AddonServiceProvider
@@ -47,7 +47,7 @@ class StructDataArticleExtensionServiceProvider extends AddonServiceProvider
      * @type array|null
      */
     protected $routes = [
-        'admin/struct_data/extensions/struct_data_article/edit/{id}' => 'BehaviorLab\StructDataArticleExtension\Http\Controller\Admin\SettingsController@edit',
+        'admin/struct_data/extensions/struct_data_article/edit/{id}' => 'ConductLab\StructDataArticleExtension\Http\Controller\Admin\SettingsController@edit',
     ];
 
     /**
@@ -56,7 +56,7 @@ class StructDataArticleExtensionServiceProvider extends AddonServiceProvider
      * @type array|null
      */
     protected $middleware = [
-        //BehaviorLab\StructDataArticleExtension\Http\Middleware\ExampleMiddleware::class
+        //ConductLab\StructDataArticleExtension\Http\Middleware\ExampleMiddleware::class
     ];
 
     /**
@@ -66,7 +66,7 @@ class StructDataArticleExtensionServiceProvider extends AddonServiceProvider
      */
     protected $groupMiddleware = [
         //'web' => [
-        //    BehaviorLab\StructDataArticleExtension\Http\Middleware\ExampleMiddleware::class,
+        //    ConductLab\StructDataArticleExtension\Http\Middleware\ExampleMiddleware::class,
         //],
     ];
 
@@ -83,8 +83,8 @@ class StructDataArticleExtensionServiceProvider extends AddonServiceProvider
      * @type array|null
      */
     protected $listeners = [
-        //BehaviorLab\StructDataArticleExtension\Event\ExampleEvent::class => [
-        //    BehaviorLab\StructDataArticleExtension\Listener\ExampleListener::class,
+        //ConductLab\StructDataArticleExtension\Event\ExampleEvent::class => [
+        //    ConductLab\StructDataArticleExtension\Listener\ExampleListener::class,
         //],
     ];
 
@@ -94,7 +94,7 @@ class StructDataArticleExtensionServiceProvider extends AddonServiceProvider
      * @type array|null
      */
     protected $aliases = [
-        //'Example' => BehaviorLab\StructDataArticleExtension\Example::class
+        //'Example' => ConductLab\StructDataArticleExtension\Example::class
     ];
 
     /**

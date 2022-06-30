@@ -1,8 +1,8 @@
-<?php namespace BehaviorLab\StructDataArticleExtension\Http\Controller\Admin;
+<?php namespace ConductLab\StructDataArticleExtension\Http\Controller\Admin;
 
-use BehaviorLab\StructDataArticleExtension\Setting\Form\SettingFormBuilder;
+use ConductLab\StructDataArticleExtension\Setting\Form\SettingFormBuilder;
 use Anomaly\Streams\Platform\Http\Controller\AdminController;
-use BehaviorLab\StructDataModule\Extension\Contract\ExtensionRepositoryInterface;
+use ConductLab\StructDataModule\Extension\Contract\ExtensionRepositoryInterface;
 use Symfony\Component\HttpFoundation\Response;
 
 class SettingsController extends AdminController

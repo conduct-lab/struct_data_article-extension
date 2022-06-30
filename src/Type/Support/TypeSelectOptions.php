@@ -1,6 +1,6 @@
 <?php
 
-namespace BehaviorLab\StructDataArticleExtension\Type\Support;
+namespace ConductLab\StructDataArticleExtension\Type\Support;
 
 use Anomaly\SelectFieldType\SelectFieldType;
 use Illuminate\Support\Str;

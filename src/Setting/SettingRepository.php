@@ -1,6 +1,6 @@
-<?php namespace BehaviorLab\StructDataArticleExtension\Setting;
+<?php namespace ConductLab\StructDataArticleExtension\Setting;
 
-use BehaviorLab\StructDataArticleExtension\Setting\Contract\SettingRepositoryInterface;
+use ConductLab\StructDataArticleExtension\Setting\Contract\SettingRepositoryInterface;
 use Anomaly\Streams\Platform\Entry\EntryRepository;
 
 class SettingRepository extends EntryRepository implements SettingRepositoryInterface

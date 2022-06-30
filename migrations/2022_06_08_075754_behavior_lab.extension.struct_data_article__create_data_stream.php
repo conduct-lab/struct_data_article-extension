@@ -5,8 +5,8 @@ use Anomaly\Streams\Platform\Database\Migration\Migration;
 /**
  * Class BehaviorLabExtensionStructDataArticleCreateStructuredDataStream
  *
- * @link   https://behaviorlab.io/
- * @author Behavior ApS <support@behaviorlab.io>
+ * @link   https://ConductLab.io/
+ * @author Behavior ApS <support@ConductLab.io>
  * @author Claus Hjort Bube <chb@b-cph.com>
  */
 class BehaviorLabExtensionStructDataArticleCreateDataStream extends Migration

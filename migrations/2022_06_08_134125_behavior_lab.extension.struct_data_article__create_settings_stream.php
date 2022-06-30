@@ -1,8 +1,8 @@
 <?php
 
 use Anomaly\Streams\Platform\Database\Migration\Migration;
-use BehaviorLab\StructDataArticleExtension\StructDataArticleExtension;
-use BehaviorLab\StructDataModule\Extension\ExtensionModel;
+use ConductLab\StructDataArticleExtension\StructDataArticleExtension;
+use ConductLab\StructDataModule\Extension\ExtensionModel;
 
 class BehaviorLabExtensionStructDataArticleCreateSettingsStream extends Migration
 {

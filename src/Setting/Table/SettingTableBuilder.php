@@ -1,4 +1,4 @@
-<?php namespace BehaviorLab\StructDataArticleExtension\Setting\Table;
+<?php namespace ConductLab\StructDataArticleExtension\Setting\Table;
 
 use Anomaly\Streams\Platform\Ui\Table\TableBuilder;
 

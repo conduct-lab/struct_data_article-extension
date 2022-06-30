@@ -1,6 +1,6 @@
-<?php namespace BehaviorLab\StructDataArticleExtension\Type;
+<?php namespace ConductLab\StructDataArticleExtension\Type;
 
-use BehaviorLab\StructDataArticleExtension\Type\Contract\TypeInterface;
+use ConductLab\StructDataArticleExtension\Type\Contract\TypeInterface;
 use Anomaly\Streams\Platform\Model\StructDataArticle\StructDataArticleTypesEntryModel;
 
 class TypeModel extends StructDataArticleTypesEntryModel implements TypeInterface

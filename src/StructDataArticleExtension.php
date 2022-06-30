@@ -1,7 +1,7 @@
-<?php namespace BehaviorLab\StructDataArticleExtension;
+<?php namespace ConductLab\StructDataArticleExtension;
 
-use BehaviorLab\StructDataArticleExtension\Data\DataModel;
-use BehaviorLab\StructDataModule\StructuredDatum\StructuredDatumExtension;
+use ConductLab\StructDataArticleExtension\Data\DataModel;
+use ConductLab\StructDataModule\StructuredDatum\StructuredDatumExtension;
 
 class StructDataArticleExtension extends StructuredDatumExtension
 {
@@ -17,14 +17,14 @@ class StructDataArticleExtension extends StructuredDatumExtension
      *
      * @var string
      */
-    protected $provides = 'behavior_lab.module.struct_data::type.article';
+    protected $provides = 'conduct_lab.module.struct_data::type.article';
 
     /**
      * The section view.
      *
      * @var string
      */
-    protected $view = 'behavior_lab.extension.struct_data_article::content';
+    protected $view = 'conduct_lab.extension.struct_data_article::content';
 
     /**
      * The section model.

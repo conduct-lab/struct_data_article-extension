@@ -1,4 +1,4 @@
-<?php namespace BehaviorLab\StructDataArticleExtension\Setting;
+<?php namespace ConductLab\StructDataArticleExtension\Setting;
 
 use Anomaly\Streams\Platform\Entry\EntryObserver;
 
